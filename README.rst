@@ -53,7 +53,7 @@ Made with |Heart| by Stefan Cucoranu aka elpideus (elpideus@gmail.com)
 .. |Logo| image:: http://www.xanimeporn.com/wp-content/uploads/anime%20porn.png
 .. |Py-Versions| image:: https://img.shields.io/pypi/pyversions/XAnimePorn.svg?logo=python&logoColor=white
 .. |Versions| image:: https://img.shields.io/pypi/v/XAnimePorn.svg
-.. |LICENCE| image:: https://img.shields.io/pypi/l/XAnimePorn.svg
+.. |LICENCE| image:: https://img.shields.io/badge/License-GPLv3-blue.svg
 .. |GitHub-Status| image:: https://img.shields.io/github/tag/elpideus/XAnimePorn.svg?logo=github&logoColor=white
    :target: https://github.com/elpideus/XAnimePorn/releases
 .. |GitHub-Forks| image:: https://img.shields.io/github/forks/elpideus/XAnimePorn.svg?logo=github&logoColor=white
