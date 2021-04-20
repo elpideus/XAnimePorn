@@ -1,1 +1,1 @@
-from XAnimePorn import *
+from XAnimePorn.XAnimePorn import *

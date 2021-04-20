@@ -66,7 +66,7 @@ class Video:
         Returns:
             str: Full title of the video on the website.
         """
-        return [tag for tag in BeautifulSoup(self.page, parse_only=SoupStrainer('span'), features="lxml")][1]
+        return [tag for tag in BeautifulSoup(self.page, parse_only=SoupStrainer('span'), features="lxml")][1].text
 
     @property
     def thumbnail(self):
