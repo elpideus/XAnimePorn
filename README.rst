@@ -23,7 +23,10 @@ Remember to also import the requirements in your project:
 * `tqdm <https://pypi.org/project/tqdm/>`_
 * `urllib3 <https://pypi.org/project/urllib3/>`_
 
-After installing all the requirements your project is ready to use XAnimePorn. There aren't many things to explain as
+After installing all the requirements your project is ready to use XAnimePorn.
+Just use :code:`pip3 install XAnimePorn` to install the package.
+
+There aren't many things to explain as
 this is a really simple package but documentation can be found inside the code.
 
 Here an example of what can this package do:
