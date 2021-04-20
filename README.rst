@@ -6,7 +6,7 @@ A simple Python approach to `XAnimePorn.com <https://www.xanimeporn.com/>`_
 | |Py-Versions| |Versions| |LICENCE|
 | |GitHub-Status| |GitHub-Updated| |GitHub-Stars| |GitHub-Forks| |GitHub-Commits| |GitHub-Contributions| |GitHub-Issues| |GitHub-PRs|
 
-| `XAnimePorn.com <https://www.xanimeporn.com/>`_ is a website that that publishes hentai (ero-anime) videos/movies.
+| `XAnimePorn.com <https://www.xanimeporn.com/>`_ is a website that publishes hentai (ero-anime) videos/movies.
 | This package allows to easily get data from the website.
 
 Get Started
@@ -68,9 +68,9 @@ Made with |Heart| by Stefan Cucoranu aka elpideus (elpideus@gmail.com)
 .. |GitHub-Updated| image:: https://img.shields.io/github/last-commit/elpideus/XAnimePorn/master.svg?logo=github&logoColor=white&label=pushed
    :target: https://github.com/elpideus/XAnimePorn/pulse
 .. |GitHub-Contributions| image:: https://img.shields.io/github/contributors/elpideus/XAnimePorn.svg?logo=github&logoColor=white
-   :target: https://github.com/tqdm/tqdm/graphs/contributors
+   :target: https://github.com/elpideus/XAnimePorn/graphs/contributors
 .. |GitHub-Issues| image:: https://img.shields.io/github/issues-closed/elpideus/XAnimePorn.svg?logo=github&logoColor=white
-   :target: https://github.com/tqdm/tqdm/issues?q=
+   :target: https://github.com/elpideus/XAnimePorn/issues?q=
 .. |GitHub-PRs| image:: https://img.shields.io/github/issues-pr-closed/elpideus/XAnimePorn.svg?logo=github&logoColor=white
-   :target: https://github.com/tqdm/tqdm/pulls
+   :target: https://github.com/elpideus/XAnimePorn/pulls
 .. |Heart| image:: https://icons.iconarchive.com/icons/paomedia/small-n-flat/16/heart-icon.png
