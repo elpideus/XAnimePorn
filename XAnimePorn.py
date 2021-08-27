@@ -53,11 +53,11 @@ class Video:
                 The id of the video on the website. It can also be a link
         """
         self.id = id
-        if any(protocol in self.id for protocol in [
-            "http://{domain}/".format(domain=website_domain), "http://{domain}/".format(domain=website_domain)]):
+        if any(protocol in self.id for protocol in ["http://{domain}/".format(domain=website_domain),
+                                                    "http://{domain}/".format(domain=website_domain)]):
             self.url = id
         else:
-            self.url = "http://{website_domain}/{id}/".format(website_domain=website_domain, id=id)
+            self.url = id
         self.page = urlopen(self.url).read()
 
     @property
@@ -84,9 +84,10 @@ class Video:
         Returns:
             str: Link to the video file (download link).
         """
-        flowplayer = [tag for tag in BeautifulSoup(
-            self.page, parse_only=SoupStrainer("div", {"class": re.compile(r"\bflowplayer\b")}), features="lxml")]
-        return json.loads(flowplayer[1].get("data-item"))["sources"][0]["src"]
+        # updated in the latest version
+        return ([tag for tag in BeautifulSoup(self.page, parse_only=SoupStrainer(
+            'source', {"type": "video/mp4"}), features="lxml")][1].get("src"))
+        # -----------------------------
 
     def download(self, location="downloads", debug_link=None) -> bool:
         """
@@ -98,9 +99,10 @@ class Video:
         Returns:
             bool: True if download has finished successfully or False if an error occurred.
         """
-        url = json.loads([tag for tag in BeautifulSoup(self.page, parse_only=SoupStrainer(
-               'div', {"class": re.compile(r"\bflowplayer\b")}), features="lxml")][1]
-                         .get("data-item"))["sources"][0]["src"]
+        # updated in the latest version
+        url = ([tag for tag in BeautifulSoup(self.page, parse_only=SoupStrainer(
+            'source', {"type": "video/mp4"}), features="lxml")][1].get("src"))
+        # -----------------------------
         if debug_link is not None:
             url = debug_link
         http = urllib3.PoolManager(

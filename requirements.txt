@@ -1,0 +1,5 @@
+beautifulsoup4==4.9.3
+collective.soupstrainer==2.2
+six==1.16.0
+soupsieve==2.2.1
+tqdm==4.62.2
