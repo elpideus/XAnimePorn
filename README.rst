@@ -41,7 +41,7 @@ Here an example of what can this package do:
     video = XAnimePorn.Video(link)  # Creates a Video object from which it is possible to get information
     print(video.title)  # Prints the title of the video.
     print(video.url)  # Prints the link to the video.
-    Video(link).download()  # Downloads the video.
+    XAnimePorn.Video(link).download()  # Downloads the video.
 
 
     search = XAnimePorn.search("love", 10)  # Executes a research using the given keyword
