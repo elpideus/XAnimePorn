@@ -13,7 +13,8 @@ Get Started
 ***********
 
 It's really easy to get started with XAnimePorn. No tokens, no API credentials, nothing will stay between you and your
-work. The only thing you will need is importing the package into your project using :code:`import XAnimePorn`.
+work. The only things you will need are installing the package using :code:`pip3 install XAnimePorn` and then importing
+it into your project using :code:`import XAnimePorn`.
 
 Remember to also import the requirements in your project:
 
